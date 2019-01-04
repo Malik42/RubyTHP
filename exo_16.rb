@@ -3,8 +3,8 @@
 puts "Quel age avez vous"
 age = gets.chomp.to_i
 
-i = 0
+i = 1
 
 for i in i...age
-    puts "Il a #{age - i} ans tu avez #{age}"
+    puts "Il a #{i} ans tu avez #{age - i}"
 end
