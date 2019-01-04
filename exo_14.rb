@@ -6,5 +6,7 @@ number = gets.chomp.to_i
 i = 0
 
 for i in i..number
-    puts i - 1
+    if i - 1 >= 0
+        puts i - 1
+    end
 end
