@@ -4,4 +4,4 @@ puts "Quel est ton prénom"
 name = gets.chomp
 puts "Quel est ton nom"
 lastname = gets.chomp
-puts "Bonjour, #{name} #{lastname}"
+puts "Bonjour, #{name} #{lastname} !"
